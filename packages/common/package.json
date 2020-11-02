@@ -41,8 +41,6 @@
   },
   "homepage": "https://github.com/dragoscirjan/template-javascript#readme",
   "devDependencies": {
-    "@commitlint/cli": "^9.0.1",
-    "@commitlint/config-conventional": "^9.0.1",
     "@release-it/conventional-changelog": "^1.1.4",
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
