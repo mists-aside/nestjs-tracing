@@ -4,9 +4,13 @@
   "devDependencies": {
 		"@commitlint/cli": "^9.0.1",
 		"@commitlint/config-conventional": "^9.0.1",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+		"yorkie": "^2.0.0"
   },
   "scripts": {
     "test": "lerna run test --scope @mists/nestjs-tracing*"
-  }
+  },
+	"gitHooks": {
+		"commit-msg": "commitlint -e -V "
+	}
 }
