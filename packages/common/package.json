@@ -75,5 +75,8 @@
   "gitHooks": {
     "commit-msg": "commitlint -e -V "
   },
-  "dependencies": {}
+  "dependencies": {
+    "@nestjs/common": "^7.5.1",
+    "reflect-metadata": "^0.1.13"
+  }
 }

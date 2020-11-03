@@ -47,5 +47,8 @@
 	},
 	"gitHooks": {
 		"commit-msg": "commitlint -e -V "
+	},
+	"dependencies": {
+		"opentracing": "^0.14.4"
 	}
 }

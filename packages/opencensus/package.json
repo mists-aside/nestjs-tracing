@@ -47,5 +47,8 @@
 	},
 	"gitHooks": {
 		"commit-msg": "commitlint -e -V "
+	},
+	"dependencies": {
+		"@opencensus/core": "0.0.22"
 	}
 }
